@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    font-family: 'Roboto';
+}
+.post{
+    background-color: white;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 33.3%;
+    width: 35%;
+    height: 675px;
+    display: block;
+}
+.post-header{
+    padding-left: 50px;
+    padding-top: 3px;
+    display: flex;
+}
+.fa-brands{
+    font-size: xx-large;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.fa-ellipsis-vertical{
+    font-size: xx-large;
+    position: absolute;
+    left: 94%;
+    top: 20px;
+}
+.post-image{
+    background-image: url(https://www.publicdomainpictures.net/pictures/530000/nahled/aurora-borealis-himmel-landschaft-1693671342VZm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100% ;
+    height: 360px;
+}
+.post-icons{
+    display: flex;
+}
+.post-icons{
+    font-size: xx-large;
+    padding-top: 15px;
+    padding-left: 15px;
+    bottom: 0%;
+    display: flex;
+}
+.fa-bookmark{
+    position: absolute;
+    left: 90%;
+}
+.post-body{
+    padding-left: 20px;
+}
